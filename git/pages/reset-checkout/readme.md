@@ -12,7 +12,7 @@
    ```sh
    git checkout <branch_name>
    ```
-<details>
+</details>
 
 <details>
 <summary>2. Переключение на определенный коммит:</summary>
@@ -20,7 +20,7 @@
    ```sh
    git checkout <commit_hash>
    ```
-<details>
+</details>
    
 3. Восстановление файла из определенного коммита:
    ```sh
