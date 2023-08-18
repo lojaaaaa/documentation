@@ -6,21 +6,21 @@
 `git checkout` представляет собой команду в Git, используемую для перемещения между ветками, коммитами и тегами. Она также позволяет восстанавливать файлы из определенных коммитов или веток.
 
 ### Использование
-<details>
-<summary>1. Переключение между ветками:</summary>
+   <details>
+   <summary>1. Переключение между ветками:</summary>
+      
+      ```sh
+      git checkout <branch_name>
+      ```
+   </details>
+
+   <details>
+   <summary>2. Переключение на определенный коммит:</summary>
    
-   ```sh
-   git checkout <branch_name>
-   ```
-</details>
-
-<details>
-<summary>2. Переключение на определенный коммит:</summary>
-
-   ```sh
-   git checkout <commit_hash>
-   ```
-</details>
+      ```sh
+      git checkout <commit_hash>
+      ```
+   </details>
    
 3. Восстановление файла из определенного коммита:
    ```sh
