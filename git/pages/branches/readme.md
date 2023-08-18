@@ -25,7 +25,7 @@
 ## 🚩 Объединение изменений
 
 <details>
-&emsp;<summary>🔹 Объединение веток (`Merge`):</summary>
+&emsp;<summary>🔹 Объединение веток `Merge`:</summary>
  
 <br>
  
@@ -38,7 +38,7 @@
 <br>
 
 <details>
-&emsp;<summary>🔹 Перебазирование (`Rebase`):</summary>
+&emsp;<summary>🔹 Перебазирование `Rebase`:</summary>
 
   ```bash
   git rebase <base_branch>
