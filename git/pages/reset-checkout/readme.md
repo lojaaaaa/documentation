@@ -18,7 +18,9 @@
   <br>
   <details>
    <summary>🔹 Переключение на определенный коммит:</summary>
-   
+       
+  <br>
+      
   ```sh
   git checkout <commit_hash>
   ```
@@ -28,7 +30,9 @@
    <br>
   <details>
    <summary>🔹 Восстановление файла из определенного коммита:</summary>
-
+    
+  <br>
+      
    ```sh
    git checkout <commit_hash> -- <file_path>
    ```
@@ -36,7 +40,9 @@
   <br>
   <details>
     <summary>🔹 Создание новой ветки и переключение на нее:</summary>
-    
+        
+  <br>
+      
    ```sh
    git checkout -b <new_branch_name>
    ```
