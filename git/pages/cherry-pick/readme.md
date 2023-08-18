@@ -43,6 +43,6 @@
 
   ## Отмена
 
-    ```bash
+  ```bash
   git cherry-pick --abort
   ```
