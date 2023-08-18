@@ -13,12 +13,15 @@
    git checkout <branch_name>
    ```
 <details>
-      
-2. Переключение на определенный коммит:
+
+<details>
+<summary>2. Переключение на определенный коммит:</summary>
+
    ```sh
    git checkout <commit_hash>
    ```
-
+<details>
+   
 3. Восстановление файла из определенного коммита:
    ```sh
    git checkout <commit_hash> -- <file_path>
