@@ -1,4 +1,4 @@
-# Отличие между `checkout` и `reset` в Git
+# Отличие между `checkout` и `reset`
 
 ## Команда `checkout`
 
