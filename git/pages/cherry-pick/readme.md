@@ -36,7 +36,6 @@
   ```bash
   git cherry-pick master..feature
   ```
-  <br>
-  
+
   👆 Скопировать все комиты из feature, которых нет в master
   </details>
