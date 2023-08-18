@@ -9,17 +9,17 @@
   <details>
    <summary>1. Переключение между ветками:</summary>
       
-      ```sh
+  ```sh
       git checkout <branch_name>
-      ```
+  ```
   </details>
 
   <details>
    <summary>2. Переключение на определенный коммит:</summary>
    
-      ```sh
+  ```sh
       git checkout <commit_hash>
-      ```
+  ```
   </details>
    
   <details>
