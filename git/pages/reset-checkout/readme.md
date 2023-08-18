@@ -8,6 +8,7 @@
 ### Использование
 <details>
 <summary>1. Переключение между ветками:</summary>
+   
    ```sh
    git checkout <branch_name>
    ```
