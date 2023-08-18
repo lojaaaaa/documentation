@@ -52,7 +52,7 @@
 
 <br>
 
-### Когда может произойти:
+### Когда может произойти ❗
 &emsp;&emsp; 🔸  `git checkout <commit_hash>`
   
 &emsp;&emsp; 🔸 `git checkout <tag_name>`
