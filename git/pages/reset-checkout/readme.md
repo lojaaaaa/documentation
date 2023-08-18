@@ -1,4 +1,4 @@
-# Отличие между `checkout` и `reset`
+# `checkout` и `reset`
 
 <br>
 
