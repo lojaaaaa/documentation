@@ -67,7 +67,7 @@
    git reset --soft <commit_hash>
    ```
   </details>
-
+<br>
   <details>
     <summary>🔹 Отмена коммита с сбросом изменений в индексе:</summary>
     
@@ -77,7 +77,7 @@
    git reset --mixed <commit_hash>
    ```
   </details>
-
+<br>
   <details>
     <summary>🔹 Отмена коммита с полным удалением изменений:</summary>
         
@@ -87,7 +87,7 @@
    git reset --hard <commit_hash>
    ```
   </details>
-
+<br>
   <details>
     <summary>🔹 Сброс индекса до определенного состояния:</summary>
         
