@@ -13,7 +13,6 @@
     <br>
     
   ```bash
-    
   git commit --amend
   ```
   </details>
