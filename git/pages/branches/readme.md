@@ -53,7 +53,9 @@
 <br>
 
 ### Когда может произойти:
-&emsp;&emsp; 🔸 git checkout <commit_hash>
+&emsp;&emsp; 🔸   ```bash
+  git checkout <commit_hash>
+  ```
 
 &emsp;&emsp; 🔸 git checkout <tag_name>
 
