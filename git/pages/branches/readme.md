@@ -25,7 +25,7 @@
 ## 🚩 Объединение изменений
 
 <details>
-<summary>&emsp;🔹 Объединение веток (Merge):</summary>
+&emsp;<summary>🔹 Объединение веток (Merge):</summary>
  
 <br>
  
@@ -37,14 +37,15 @@
  
 <br>
 
-### Перебазирование (Rebase):
+<details>
+&emsp;<summary>🔹 Перебазирование (Rebase):</summary>
 
   ```bash
   git rebase <base_branch>
   ```
 👆 Перемещение коммитов на другую базовую ветку.
 Создает линейную историю коммитов.
-
+</details>
 
 
 <br>
