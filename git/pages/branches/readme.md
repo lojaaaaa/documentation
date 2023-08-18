@@ -24,13 +24,15 @@
 
 ## 🚩 Объединение изменений
 
-### Объединение веток (Merge):
+<details>
+<summary>### Объединение веток (Merge):</summary>
 
   ```bash
   git merge <target_branch>
   ```
 👆 Слияние изменений из одной ветки в другую.
-
+</details>
+ 
 <br>
 
 ### Перебазирование (Rebase):
