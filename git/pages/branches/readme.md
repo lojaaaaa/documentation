@@ -45,4 +45,4 @@
 
 <br>
 
-## 🚩 Отделенный HEAD / detached HEAD
+## Отделенный HEAD / detached HEAD 🛑
