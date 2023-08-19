@@ -94,3 +94,16 @@ type Dog = Pet & { breed: string };
 <details>
 <summary>🔹 Типы с одинаковым названием вызывают ошибку</summary>
 </details>
+
+<br>
+
+<details>
+<summary>🔹 Типы позволяют типизировать конкретные значения</summary>
+
+<br>
+
+```typescript
+type sizes = 'sm' | 'md' | 'lg'
+```
+</details>
+
