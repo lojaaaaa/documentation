@@ -45,25 +45,6 @@ interface Y {
 type XY = X & Y;
 ```
 
-
-
-&emsp;&emsp; 🛑 Нельзя екстендиться от типов которые содержат в себе `union`
-```typescript
-interface User {
-  name: string
-}
-
-interface Developer {
-  direction: string
-}
-
-interface Student extends User, Developer {
-  // 👉🏼 name: string будет унаследованно  
-  // 👉🏼 direction: string будет унаследованно  
-  age: number
-}
-```
-
 <br>
 
 &emsp;&emsp; Интерфейсы с одинаковым названием дополняют друг друга
