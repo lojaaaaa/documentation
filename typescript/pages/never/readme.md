@@ -38,9 +38,10 @@ function infiniteLoop(): never {
   ```
   </details>
 
+<br>
+
 ### Конкретные примеры
 
-<br>
 
 <details>
 <summary>🔹 Исключение пропсов</summary>
