@@ -43,7 +43,7 @@ interface Y {
 type XY = X & Y;
 ```
 
-</details>
+
 
 &emsp;&emsp; 🛑 Нельзя екстендиться от типов которые содержат в себе `union`
 ```typescript
@@ -81,6 +81,8 @@ const user:User = {
 ```
 
 <br>
+
+</details>
 
 &emsp;&emsp; 🔹 Синтаксис типизации `function Expression`     
 ```typescript
