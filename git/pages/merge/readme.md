@@ -7,6 +7,8 @@
   
 <details>
 <summary> 🔹 Перемотка </summary>
+  
+<br>
 
 https://github.com/webster6667/documentation/assets/83826752/5bde9959-9cf3-44d4-b048-25e879e355d4    
 
