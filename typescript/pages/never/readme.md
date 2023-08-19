@@ -37,3 +37,49 @@ function infiniteLoop(): never {
 
   ```
   </details>
+
+### Конкретные примеры
+
+<br>
+
+<details>
+<summary>🔹 Исключение пропсов</summary>
+    
+<br>
+      
+```typescript
+export interface StringProps {
+    string: string;
+    number?: never;
+    icon?: never;
+}
+
+export interface IconProps {
+    icon: ReactElement;
+    number?: never;
+    string?: never;
+}
+
+export interface NumberProps {
+    number: number;
+    string?: never;
+    icon?: never;
+}
+
+export type BadgeProps = StringProps | IconProps | NumberProps;
+
+const Badge: FC<BadgeProps> = (props) => {
+    return <div {...props}>test</div>;
+};
+
+export const TestComponent = () => {
+    return (
+        <div>
+            <Badge number={5} string={"ABC"} />
+        </div>
+    );
+};
+
+```
+</details>
+
