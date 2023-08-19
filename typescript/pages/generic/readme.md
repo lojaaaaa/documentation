@@ -99,6 +99,8 @@ type A = MyType<number>
 ## 🚩 Never для исключения типов
 > never в generic часто используют для исключения каких либо типов
 
+<br>
+
 ```typescript
 type GetValues<T, R extends T> = T extends R ? T : never
 
