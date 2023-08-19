@@ -36,7 +36,7 @@
 
 <br>
 
-Подробнее <a href="./pages/amend/readme.md">тут</a> ❓ 
+Подробнее <a href="./pages/amend/readme.md">тут</a> 👈 
 </details>
  
 <br>
@@ -53,7 +53,7 @@
 
 <br>
 
-Подробнее <a href="./pages/amend/readme.md">тут</a> ❓ 
+Подробнее <a href="./pages/amend/readme.md">тут</a> 👈 
 </details>
 
 
