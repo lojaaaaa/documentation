@@ -79,7 +79,7 @@ const Badge: FC<BadgeProps> = (props) => {
 export const TestComponent = () => {
     return (
         <div>
-            <Badge number={5} string={"ABC"} />
+            <Badge number={5} string={"ABC"} /> // Здесь будет ошибка, поскольку в качестве пропса может быть передано лишь что-то одно
         </div>
     );
 };
