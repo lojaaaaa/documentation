@@ -17,7 +17,8 @@
 
 ## 🚩 Основной синтаксис
 
-💠 **Generic в type**   
+<details>
+<summary>🔹 Generic в type</summary>
 👆🏽 В конструкцию `type`, дженерик требует указать тип, или данные, которые попадут в `T`
 
 ```typescript
@@ -26,8 +27,8 @@ type MyType<T> = T
 type A = MyType<string>  // A: string
 type B = MyType<'hello'> // A: 'hello'
 ```
+ <details>
 
-<br>
 <br>
 
 💠 **Generic в интерфейсах**   
