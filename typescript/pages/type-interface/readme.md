@@ -82,8 +82,6 @@ const user:User = {
 
 <br>
 
-👇 
-
 ```typescript
 interface X {
     commonProp: string;
