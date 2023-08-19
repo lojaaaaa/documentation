@@ -27,7 +27,7 @@ type MyType<T> = T
 type A = MyType<string>  // A: string
 type B = MyType<'hello'> // A: 'hello'
 ```
- <details>
+ </details>
 
 <br>
 
