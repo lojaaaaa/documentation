@@ -3,7 +3,7 @@
 
 <br>
 
-### Использование
+### Примеры
 
   <details>
    <summary>🔹 При обработке ошибок:</summary>
@@ -17,6 +17,23 @@
   
   const errorMessage = "Something went wrong!";
   throwError(errorMessage); // Вызовет ошибку и завершит выполнение
+
+  ```
+  </details>
+
+  <br>
+
+  <details>
+   <summary>🔹 Бесконечный цикл:</summary>
+    
+  <br>
+      
+  ```typescript
+function infiniteLoop(): never {
+    while (true) {
+        // Бесконечный цикл
+    }
+}
 
   ```
   </details>
