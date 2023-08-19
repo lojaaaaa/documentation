@@ -83,17 +83,8 @@ const user:User = {
 <br>
 
 ```typescript
-interface X {
-    commonProp: string;
-    uniqueX: number;
-}
-
-interface Y {
-    commonProp: string;
-    uniqueY: boolean;
-}
-
-type XY = X & Y;
+type Pet = { name: string };
+type Dog = Pet & { breed: string };
 ```
 
 </details>
