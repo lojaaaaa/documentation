@@ -91,8 +91,6 @@ export const TestComponent = () => {
 
 </details>
 
-<br>
-
 <details>
 <summary>🔹 Обработка 'невозможного' кейса</summary>
     
