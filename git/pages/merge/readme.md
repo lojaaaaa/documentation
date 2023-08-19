@@ -82,6 +82,3 @@ git reset --hard 'comitHashBeforeMergeRequestOnBranch'
 
 </details>
 
-<br>
-
-### ⟵ **<a href="../../readme.md">Назад</a>**
