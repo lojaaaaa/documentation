@@ -144,7 +144,7 @@ function withCar (car: Car) {
             break
 
         default:
-            exhaustiveCheck(car)
+            exhaustiveCheck(car) // Здесь будет ошибка, поскольку в car будет находится type TOYTA, а не never
             break
     }
 }
