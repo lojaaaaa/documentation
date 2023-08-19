@@ -24,8 +24,21 @@ interface Student extends User, Developer {
   age: number
 }
 ```
+Могут быть объединены в тип путем использования оператора & (пересечение)
 
+```typescript
+interface X {
+    commonProp: string;
+    uniqueX: number;
+}
 
+interface Y {
+    commonProp: string;
+    uniqueY: boolean;
+}
+
+type XY = X & Y;
+```
 
 &emsp;&emsp; 🛑 Нельзя екстендиться от типов которые содержат в себе `union`
 ```typescript
