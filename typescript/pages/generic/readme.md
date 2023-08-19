@@ -35,7 +35,7 @@ type B = MyType<'hello'> // A: 'hello'
 <br>
 
 <details>
-<summary>🔹 Generic в интерфейсах</summary> /////
+<summary>🔹 Generic в интерфейсах</summary>
  
 <br>
  
