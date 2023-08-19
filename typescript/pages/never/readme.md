@@ -91,3 +91,68 @@ export const TestComponent = () => {
 
 </details>
 
+<br>
+
+<details>
+<summary>🔹 Обработка 'невозможного' кейса</summary>
+    
+<br>
+      
+```typescript
+type CarBrand = 'lada' | 'bmw' | 'toyta'
+
+interface CarBase {
+    year: number,
+    brand: CarBrand
+}
+
+interface BMW extends CarBase {
+    brand: 'bmw',
+    climatControl: boolean
+}
+
+interface LADA extends CarBase {
+    brand: 'lada',
+    climatControl: boolean
+}
+
+interface TOYTA extends CarBase {
+    brand: 'toyta',
+    climatControl: boolean
+}
+
+type Car = LADA | BMW | TOYTA
+
+
+
+
+function exhaustiveCheck (car: never){
+    console.log('Необходимо обработать это значение:', car)
+}
+
+function withCar (car: Car) {
+    switch(car.brand){
+        case 'bmw':
+            //do smt
+            break
+
+        case 'lada':
+            //do smt
+            break
+
+        default:
+            exhaustiveCheck(car)
+            break
+    }
+}
+
+
+```
+
+<br>
+
+❗ Паттерн, когда один компонент может принимать разные наборы пропсов в зависимости от контекста. 
+
+Использование типов "never" в определении интерфейсов помогает контролировать, какие типы пропсов могут быть использованы в каждом случае
+
+</details>
