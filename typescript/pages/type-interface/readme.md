@@ -91,4 +91,6 @@ type Dog = Pet & { breed: string };
 
 <br>
 
+<details>
 <summary>🔹 Типы с одинаковым названием вызывают ошибку</summary>
+</details>
