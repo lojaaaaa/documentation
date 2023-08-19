@@ -72,6 +72,7 @@ git merge feature
 <details>
 <summary> 🔹 Откатить изменения merge request</summary>
 
+<br>
 
 ```shell
 git reset --hard 'comitHashBeforeMergeRequestOnBranch'
