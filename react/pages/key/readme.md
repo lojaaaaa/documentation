@@ -13,11 +13,11 @@
 
 <br>
 
-<img src="./1.png">
+<img src="./img/1.png">
 
 
 ## Почему не стоит использовать индекс как ключи
 
 <br>
 
-<img src="./1.png">
+<img src="./img/1.png">
