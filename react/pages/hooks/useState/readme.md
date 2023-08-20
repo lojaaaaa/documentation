@@ -17,7 +17,7 @@ const [state, setState] = useState(initialState);
 
 ### Важно ❗
 
-useState имеет доступ к предыщему состоянию
+`useState` имеет доступ к предыщему состоянию
 ```jsx
 setCount(prevCount => prevCount + 1);
 ```
