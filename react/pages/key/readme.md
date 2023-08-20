@@ -21,4 +21,4 @@
 
 <br>
 
-<img src="./img/2.png" style="width: 500px; text-align: center;" style="text-align: center;">
+<img src="./img/2.png" style="width: 500px;">
