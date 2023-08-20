@@ -99,6 +99,8 @@ function App() {
 <Route path="/users/:id" component={UserProfile} />
 ```
 
+<br>
+
 Извлечение параметров в компоненте:
 ```jsx
 import { useParams } from 'react-router-dom';
