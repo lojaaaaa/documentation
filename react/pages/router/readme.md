@@ -62,6 +62,9 @@
 ```
 </details>
 
+<br>
+
+Пример использования
 
 ```react
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
