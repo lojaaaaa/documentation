@@ -89,3 +89,24 @@ function App() {
 
 ```
 </details>
+
+<br>
+
+## 🚩 Динамический маршрут
+
+Определение динамического маршрута:
+```jsx
+<Route path="/users/:id" component={UserProfile} />
+```
+
+Извлечение параметров в компоненте:
+```jsx
+import { useParams } from 'react-router-dom';
+
+function UserProfile() {
+    const { id } = useParams();
+
+    return <p>User ID: {id}</p>;
+}
+
+```
