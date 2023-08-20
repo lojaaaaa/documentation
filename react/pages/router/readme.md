@@ -3,7 +3,7 @@
 
 ## Компоненты
 <details>
-<summary>🔹 <BrowserRouter></summary>
+<summary>🔹 BrowserRouter</summary>
     
 <br>
       
@@ -13,7 +13,7 @@
 <br>
 
 <details>
-<summary>🔹 <Route></summary>
+<summary>🔹 Route</summary>
     
 <br>
       
@@ -23,7 +23,7 @@
 <br>
 
 <details>
-<summary>🔹 <Switch></summary>
+<summary>🔹 Switch</summary>
     
 <br>
       
@@ -33,7 +33,7 @@
 <br>
 
 <details>
-<summary>🔹 <Link></summary>
+<summary>🔹 Link</summary>
     
 <br>
       
@@ -43,7 +43,7 @@
 <br>
 
 <details>
-<summary>🔹 <NavLink></summary>
+<summary>🔹 NavLink</summary>
     
 <br>
       
