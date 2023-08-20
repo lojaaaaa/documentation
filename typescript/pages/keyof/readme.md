@@ -86,7 +86,8 @@ type ValidationSchemeForm = ValidationScheme<FormProps>
 
 <br>
 
- `[K in keyof T]` конструкция делает следующее:   
+<details>
+ <summary>`[K in keyof T]` конструкция делает следующее:</summary>
  
 &emsp;&emsp; 🎯 `keyof T` получает все ключи из полученного `generic` 👉🏼 (`'name' | 'age'`)  
 
@@ -110,5 +111,6 @@ type ValidationSchemeForm = { // => результат работы K in keyof T
      }
 }
 ```
+</details>
 </details>
 
