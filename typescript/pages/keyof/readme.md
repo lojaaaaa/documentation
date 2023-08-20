@@ -3,7 +3,7 @@
 
 <br>
 
-🔹 Основной синтаксис
+Основной синтаксис
 ```typescript
 interface Person {
     name: string;
@@ -17,7 +17,12 @@ type PersonKey = keyof Person; // "name" | "age"
 <br>
 <br>
 
-🔹 Использование в `generic`
+## Использование
+
+<br>
+
+<details>
+<summary>🔹 Использование в `generic`</summary>
 ```typescript
 interface Person {
     name: string;
@@ -40,11 +45,12 @@ const ageValue = getProperty(person, "age");   // ageValue - 30
 &emsp;&emsp; 🎯 `T` содержит типизированый объект `{name: string, age: number}`              
 &emsp;&emsp; 🎯 `K` при помощи `keyof` вынимает все ключи в виде строки из `T`  `'name' | 'age'`  
 &emsp;&emsp; 🎯 Вторым аргументом функции может быть только ключ, который есть в объекте первого аргумента
+</details>
 
-<br>
 <br>    
 
-🔹 Использование в цикле `key in`
+<details>
+<summary>🔹 Использование в цикле `key in`</summary>
 ```typescript
 type FormProps = {
   name: string,
@@ -87,7 +93,5 @@ type ValidationSchemeForm = { // => результат работы K in keyof T
      }
 }
 ```
+</details>
 
-<br>
-
-### ⟵ **<a href="../../readme.md">Назад</a>**
