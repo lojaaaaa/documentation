@@ -15,6 +15,7 @@
 Пример:
 
 <br>
+<br>
 
 <img src="./img/1.png" style="width: 500px">
 
