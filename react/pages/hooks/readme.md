@@ -2,6 +2,10 @@
 > Функции, предоставляемые React, которые позволяют добавлять состояние и другие возможности React в функциональные компоненты
 
 
-* **<a href="./pages/hooks/readme.md">Хуки</a>**
-* **<a href="./pages/router/readme.md">Роутер</a>**
-* **<a href="./pages/key/readme.md">key</a>**
+* **<a href="./useState/readme.md">useState</a>**
+* **<a href="./useEffect/readme.md">useEffect</a>**
+* **<a href="./useLayoutEffect/readme.md">useLayoutEffect</a>**
+* **<a href="./useMemo/readme.md">useMemo</a>**
+* **<a href="./useCallback/readme.md">useCallback</a>**
+* **<a href="./useRef/readme.md">useRef</a>**
+
