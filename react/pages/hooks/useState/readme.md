@@ -15,6 +15,15 @@ const [state, setState] = useState(initialState);
 
 <br>
 
+## Важно
+
+useState имеет доступ к предыщему состоянию
+```jsx
+setCount(prevCount => prevCount + 1);
+```
+
+<br>
+
 ## Пример
 ```jsx
 import React, { useState } from 'react';
