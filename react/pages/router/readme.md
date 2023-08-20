@@ -29,7 +29,7 @@
 <br>
 
 <details>
-<summary>🔹 Switch</summary>
+<summary>🔹 Switch | Routes</summary>
     
 <br>
 
