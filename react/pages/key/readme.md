@@ -13,7 +13,7 @@
 
 <br>
 
-<img src="./img/1.png" style="width: 500px; text-align: center;">
+<img src="./img/1.png" style="width: 500px; margin: 0 auto;">
 
 <br>
 
