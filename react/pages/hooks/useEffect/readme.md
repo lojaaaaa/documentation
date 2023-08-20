@@ -22,13 +22,14 @@ useEffect(callback, [depends]);
 Для очистки компонента (или для отписки от события) `callback` внутри useEffect должен возвращать функцию
 
 ```jsx
-  useEffect(() => {
+    useEffect(() => {
         window.addEventListener('resize', handleResize);
 
         // Возвращаем функцию очистки для отписки от события
         return () => {
             window.removeEventListener('resize', handleResize);
         };
+    }, []);
 
 ```
 
