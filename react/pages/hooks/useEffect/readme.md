@@ -17,10 +17,7 @@ useEffect(callback, [depends]);
 
 ### Важно ❗
 
-`useState` имеет доступ к предыщему состоянию
-```jsx
-setCount(prevCount => prevCount + 1);
-```
+`[]` выполнится только после первого рендеринга компонента
 
 <br>
 
