@@ -23,27 +23,28 @@ useEffect(callback, [depends]);
 
 ## 🚩 Пример
 ```jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-function Counter() {
-    // Используем useState с начальным состоянием 0
-    const [count, setCount] = useState(0);
+function DataFetching() {
+    const [data, setData] = useState(null);
 
-    const increment = () => {
-        setCount(count + 1); // Обновляем состояние с новым значением
-    };
-
-    const decrement = () => {
-        setCount(count - 1);
-    };
+    useEffect(() => {
+        fetch('https://api.example.com/data')
+            .then(response => response.json())
+            .then(data => setData(data))
+            .catch(error => console.error(error));
+    }, []);
 
     return (
         <div>
-            <p>Count: {count}</p>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
+            {data ? (
+                <p>Data: {data}</p>
+            ) : (
+                <p>Loading...</p>
+            )}
         </div>
     );
 }
+
 
 ```
