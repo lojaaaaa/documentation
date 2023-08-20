@@ -5,13 +5,9 @@
 
 ## 🚩 Синтаксис
 ```jsx
-const [state, setState] = useState(initialState);
-```
-`state` - текущее состояние
+const ref = useRef(initialValue);
 
-`setState` - функция для его обновления
-
-`initialValue` - начальное значение состояния
+`initialValue` - начальное значение ref
 
 <br>
 
