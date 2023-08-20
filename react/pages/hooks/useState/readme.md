@@ -9,3 +9,5 @@ const [state, setState] = useState(initialState);
 `state` - текущее состояние
 
 `setState` - функция для его обновления
+
+`initialValue` - начальное значение состояния
