@@ -3,7 +3,7 @@
 
 <br>
 
-## Синтаксис
+## 🚩 Синтаксис
 ```jsx
 const [state, setState] = useState(initialState);
 ```
@@ -15,7 +15,7 @@ const [state, setState] = useState(initialState);
 
 <br>
 
-## Важно ❗
+### Важно ❗
 
 useState имеет доступ к предыщему состоянию
 ```jsx
@@ -24,7 +24,7 @@ setCount(prevCount => prevCount + 1);
 
 <br>
 
-## Пример
+## 🚩 Пример
 ```jsx
 import React, { useState } from 'react';
 
