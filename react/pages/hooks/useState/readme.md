@@ -6,4 +6,6 @@
 ```jsx
 const [state, setState] = useState(initialState);
 ```
-где `state` - текущее состояние, а `setState` - функция для его обновления
+`state` - текущее состояние
+
+`setState` - функция для его обновления
