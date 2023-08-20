@@ -87,7 +87,7 @@ type ValidationSchemeForm = ValidationScheme<FormProps>
 <br>
 
 <details>
-<summary> `[K in keyof T]` конструкция делает следующее:</summary>
+<summary>[K in keyof T]</summary>
 
 <br>
 
