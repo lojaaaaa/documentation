@@ -3,7 +3,7 @@
 
 <br>
 
-Основной синтаксис
+## Основной синтаксис
 ```typescript
 interface Person {
     name: string;
