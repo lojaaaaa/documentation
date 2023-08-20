@@ -3,6 +3,7 @@
 
 <br>
 
+## Синтаксис
 ```jsx
 const [state, setState] = useState(initialState);
 ```
@@ -12,8 +13,9 @@ const [state, setState] = useState(initialState);
 
 `initialValue` - начальное значение состояния
 
+<br>
 
-# Пример
+## Пример
 ```jsx
 import React, { useState } from 'react';
 
