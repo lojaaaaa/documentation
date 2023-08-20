@@ -40,11 +40,12 @@ const person: Person = {
 
 const nameValue = getProperty(person, "name"); // nameValue - 'Alice'
 const ageValue = getProperty(person, "age");   // ageValue - 30
-
 ```
+
 &emsp;&emsp; 🎯 `T` содержит типизированый объект `{name: string, age: number}`              
 &emsp;&emsp; 🎯 `K` при помощи `keyof` вынимает все ключи в виде строки из `T`  `'name' | 'age'`  
 &emsp;&emsp; 🎯 Вторым аргументом функции может быть только ключ, который есть в объекте первого аргумента
+
 </details>
 
 <br>    
