@@ -15,7 +15,7 @@ const [state, setState] = useState(initialState);
 
 <br>
 
-## Важно
+## Важно ❗
 
 useState имеет доступ к предыщему состоянию
 ```jsx
