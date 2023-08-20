@@ -64,7 +64,8 @@
 
 <br>
 
-👇 Пример использования
+<details>
+<summary>👇 Пример использования</summary>
 
 ```jsx
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
@@ -87,3 +88,4 @@ function App() {
 }
 
 ```
+</details>
