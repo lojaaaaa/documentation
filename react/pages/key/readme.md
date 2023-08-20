@@ -13,7 +13,7 @@
 
 <br>
 
-<img src="./img/1.png" style="width: 500px; margin: 0 auto;">
+<img src="./img/1.png" style="width: 500px">
 
 <br>
 
@@ -21,4 +21,4 @@
 
 <br>
 
-<img src="./img/2.png" style="width: 500px; text-align: center;">
+<img src="./img/2.png" style="width: 500px; text-align: center;" style="text-align: center;">
