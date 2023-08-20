@@ -7,9 +7,9 @@
 
 ```jsx
 const ref = useRef(initialValue);
+```
 
 `initialValue` - начальное значение ref
-```
 
 <br>
 
