@@ -23,6 +23,9 @@ type PersonKey = keyof Person; // "name" | "age"
 
 <details>
 <summary>🔹 Использование в `generic`</summary>
+
+<br>
+    
 ```typescript
 interface Person {
     name: string;
@@ -40,7 +43,9 @@ const person: Person = {
 
 const nameValue = getProperty(person, "name"); // nameValue - 'Alice'
 const ageValue = getProperty(person, "age");   // ageValue - 30
+
 ```
+<br>
 
 &emsp;&emsp; 🎯 `T` содержит типизированый объект `{name: string, age: number}`              
 &emsp;&emsp; 🎯 `K` при помощи `keyof` вынимает все ключи в виде строки из `T`  `'name' | 'age'`  
