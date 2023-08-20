@@ -1,6 +1,8 @@
 # `React Router DOM`
 > библиотека для навигации и маршрутизации в приложениях React
 
+<br>
+
 ## 🚩 Компоненты
 <details>
 <summary>🔹 BrowserRouter</summary>
