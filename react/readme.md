@@ -1,3 +1,5 @@
 # React
 
-* **<a href="./pages/type-interface/readme.md">Типы и интерфейсы</a>**
+* **<a href="./pages/hooks/readme.md">Хуки</a>**
+* **<a href="./pages/router/readme.md">Роутер</a>**
+* **<a href="./pages/key/readme.md">key</a>**
