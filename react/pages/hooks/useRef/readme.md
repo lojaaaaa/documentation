@@ -21,27 +21,22 @@ const ref = useRef(initialValue);
 
 ## 🚩 Пример
 ```jsx
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 
-function Counter() {
-    // Используем useState с начальным состоянием 0
-    const [count, setCount] = useState(0);
+function FocusableInput() {
+    const inputRef = useRef(null);
 
-    const increment = () => {
-        setCount(count + 1); // Обновляем состояние с новым значением
-    };
-
-    const decrement = () => {
-        setCount(count - 1);
+    const focusInput = () => {
+        inputRef.current.focus();
     };
 
     return (
         <div>
-            <p>Count: {count}</p>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
+            <input ref={inputRef} type="text" />
+            <button onClick={focusInput}>Focus Input</button>
         </div>
     );
 }
+
 
 ```
