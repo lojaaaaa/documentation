@@ -117,7 +117,7 @@ ReactDOM.render( // объект store будет доступен во всех
 
 <br>
 
-useDispatch
+useDispatch - отправка действия для обновления состояния
 
 ```jsx
 const dispatch = useDispatch();
@@ -126,6 +126,15 @@ const dispatch = useDispatch();
 const handleAddTodo = () => {
     dispatch({type: {действие}, payload: {данные}));
   };
+
+```
+
+<br>
+
+useSelector - получение нужных данных из общего состояния
+
+```jsx
+const todos = useSelector(state => state.todos);
 
 ```
 
