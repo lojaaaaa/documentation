@@ -79,15 +79,11 @@ const defaultState = {  // состояние по умолчанию
 }
 
 export const cashReducer = (state = defaultState, action) =>{
-
   switch(action.type){ // обработка действий
-
     case 'ADD_CASH':
       return {...state, cash: state.cash + action.payload} // изменение состояния
-
     case 'GET_CASH':
       return {...state, cash: state.cash - action.payload}
-
     default:
       return state
   }
