@@ -157,6 +157,8 @@ const otherData = useSelector(state => state.otherData);
 
 <br>
 
+Пример функции для получения пользователей:
+
 ```jsx
 import { ADD_MANY_CUSTOMERS} from "../store/customerReducer"
 
