@@ -37,7 +37,7 @@
 
 <br>
 
-### Создание хранилища
+### 🔵 Создание хранилища
 
 ```jsx
 // store.js
@@ -50,7 +50,7 @@ export const store = createStore(rootReducer, composeWithDevTools);
 
 <br>
 
-### Объединение редюсеров
+### 🔵 Объединение редюсеров
 
 ```jsx
 // reducers.js
@@ -69,7 +69,7 @@ export default rootReducer;
 
 <br>
 
-### Пример простого редюсера
+### 🔵 Пример простого редюсера
 
 ```jsx
 // cashReducer.js
@@ -93,7 +93,7 @@ export const cashReducer = (state = defaultState, action) =>{
 
 <br>
 
-### Оболочка для приложения
+### 🔵 Оболочка для приложения
 
 ```jsx
 // index.js
@@ -113,7 +113,7 @@ ReactDOM.render( // объект store будет доступен во всех
 
 <br>
 
-### Хуки useDispatch и useSelector
+### 🔵 Хуки useDispatch и useSelector
 
 <br>
 
