@@ -140,6 +140,7 @@ const otherData = useSelector(state => state.otherData);
 
 
 <br>
+<br>
 
 # `Redux Thunk`
 > middleware для управления асинхронными действиями
