@@ -5,9 +5,10 @@
 
 ## 🚩 Наглядная разница
 
+<br>
+
 Пример:
 
 <br>
-<br>
 
-<img src="./img/1.png" style="width: 500px">
+<img src="./img/1.svg" style="width: 500px">
