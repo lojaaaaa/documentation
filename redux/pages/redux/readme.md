@@ -124,7 +124,7 @@ const dispatch = useDispatch();
 ...
 
 const handleAddTodo = () => {
-    dispatch({type: '{действие}', payload: {данные}));
+    dispatch({type: {действие}, payload: {данные}));
   };
 
 ```
