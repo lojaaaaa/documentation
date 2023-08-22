@@ -101,8 +101,8 @@ import { Provider } from 'react-redux';
 import store from './store';
 import App from './App';
 
-ReactDOM.render(
-  <Provider store={store}> // объект store будет доступен во всех дочерних компонентах
+ReactDOM.render( // объект store будет доступен во всех дочерних компонентах 
+  <Provider store={store}>  
     <App />
   </Provider>,
   document.getElementById('root')
