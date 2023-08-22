@@ -113,7 +113,7 @@ ReactDOM.render( // объект store будет доступен во всех
 
 <br>
 
-### 🔵 Хуки useDispatch и useSelector
+### 🔵 Хуки `useDispatch` и `useSelector`
 
 <br>
 
