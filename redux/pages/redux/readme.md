@@ -141,10 +141,11 @@ const otherData = useSelector(state => state.otherData);
 
 <br>
 
-# Redux Thunk
+# `Redux Thunk`
 > middleware для управления асинхронными действиями
-> 
+
 <br>
+
 ## Важно ❗
 
 Middleware в Redux - это слой, через который проходят действия перед тем, как они достигнут редюсера. 
