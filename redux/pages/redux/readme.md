@@ -74,16 +74,16 @@ export default rootReducer;
 ```jsx
 // cashReducer.js
 
-const defaultState = {
+const defaultState = {  // состояние по умолчанию
   cash: 6
 }
 
 export const cashReducer = (state = defaultState, action) =>{
 
-  switch(action.type){
+  switch(action.type){ // обработка действий
 
     case 'ADD_CASH':
-      return {...state, cash: state.cash + action.payload}
+      return {...state, cash: state.cash + action.payload} // изменение состояния
 
     case 'GET_CASH':
       return {...state, cash: state.cash - action.payload}
