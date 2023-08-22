@@ -17,6 +17,7 @@
 
 <img src="./img/1.png" style="width: 500px">
 
+<br>
 
 `Dispatch` - Процесс передачи действия редюсеру
 
