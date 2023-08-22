@@ -46,3 +46,24 @@ import rootReducer from './reducers'; // Объединение редюсеро
 
 export const store = createStore(rootReducer, composeWithDevTools);
 ```
+
+
+<br>
+
+### Объединение редюсеров
+
+```jsx
+// reducers.js
+import { combineReducers } from 'redux';
+import todoReducer from './todoReducer'; 
+import otherReducer from './otherReducer';
+
+const rootReducer = combineReducers({
+  todos: todoReducer,
+  otherData: otherReducer
+});
+
+export default rootReducer;
+
+```
+
