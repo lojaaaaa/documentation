@@ -42,7 +42,7 @@
 ```jsx
 // store.js
 import { legacy_createStore as createStore } from 'redux';
-import rootReducer from './reducers';
+import rootReducer from './reducers'; // Объединение редюсеров
 
 export const store = createStore(rootReducer, composeWithDevTools);
 ```
