@@ -67,3 +67,34 @@ export default rootReducer;
 
 ```
 
+<br>
+
+### Пример простого редюсера
+
+```jsx
+// cashReducer.js
+
+const defaultState = {
+  cash: 6
+}
+
+export const cashReducer = (state = defaultState, action) =>{
+
+  switch(action.type){
+
+    case 'ADD_CASH':
+      return {...state, cash: state.cash + action.payload}
+
+    case 'GET_CASH':
+      return {...state, cash: state.cash - action.payload}
+
+    default:
+      return state
+  }
+}
+
+```
+
+
+
+
