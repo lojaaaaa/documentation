@@ -133,6 +133,8 @@ const handleAddTodo = () => {
 
 ```jsx
 const todos = useSelector(state => state.todos);
+или
+const otherData = useSelector(state => state.otherData);
 
 ```
 
