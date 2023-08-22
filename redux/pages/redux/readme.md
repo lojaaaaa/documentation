@@ -102,7 +102,7 @@ import store from './store';
 import App from './App';
 
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={store}> // объект store будет доступен во всех дочерних компонентах
     <App />
   </Provider>,
   document.getElementById('root')
