@@ -30,3 +30,19 @@
 `Store` - Объект, который содержит все данные
 
 `View` - Само приложение, в котором так или иначе можно вызывать `dispatch`
+
+<br>
+
+## 🚩 Использование
+
+<br>
+
+### Создание хранилища
+
+```jsx
+// store.js
+import { legacy_createStore as createStore } from 'redux';
+import rootReducer from './reducers';
+
+export const store = createStore(rootReducer, composeWithDevTools);
+```
