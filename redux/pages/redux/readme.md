@@ -121,8 +121,6 @@ useDispatch - отправка действия для обновления со
 
 ```jsx
 const dispatch = useDispatch();
-...
-
 const handleAddTodo = () => {
     dispatch({type: {действие}, payload: {данные}));
   };
