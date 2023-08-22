@@ -91,6 +91,7 @@ export const cashReducer = (state = defaultState, action) =>{
 
 ```
 
+<br>
 
 ### Оболочка для приложения
 
@@ -110,5 +111,21 @@ ReactDOM.render( // объект store будет доступен во всех
 
 ```
 
+<br>
 
+### Хуки useDispatch и useSelector
+
+<br>
+
+useDispatch
+
+```jsx
+const dispatch = useDispatch();
+...
+
+const handleAddTodo = () => {
+    dispatch({type: '{действие}', payload: {данные}));
+  };
+
+```
 
