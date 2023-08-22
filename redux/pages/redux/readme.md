@@ -149,7 +149,6 @@ const otherData = useSelector(state => state.otherData);
 
 ## Важно ❗
 
-<br>
 
 `Middleware` - это слой, через который проходят действия перед тем, как они достигнут редюсера
 
