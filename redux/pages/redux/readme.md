@@ -7,8 +7,4 @@
 
 <br>
 
-Пример:
-
-<br>
-
 <img src="./img/1.svg" style="width: 500px">
