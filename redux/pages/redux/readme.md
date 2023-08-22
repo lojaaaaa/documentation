@@ -146,7 +146,10 @@ const otherData = useSelector(state => state.otherData);
 
 <br>
 
+
 ## Важно ❗
+
+<br>
 
 Middleware в Redux - это слой, через который проходят действия перед тем, как они достигнут редюсера. 
 
