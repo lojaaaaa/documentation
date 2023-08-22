@@ -155,5 +155,18 @@ const otherData = useSelector(state => state.otherData);
 
 Он позволяет добавлять дополнительную логику и функциональность, такую как асинхронные операции, логирование или изменение данных, без изменения самих редюсеров
 
+<br>
 
+```jsx
+import { addManyUsersAction } from "../store/customerReducer"
+
+export const fetchUsers = () =>{
+  return function(dispatch){
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(json => dispatch(addManyUsersAction(json)))
+  }
+}
+
+```
 
