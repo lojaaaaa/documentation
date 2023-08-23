@@ -22,8 +22,8 @@ export function* watchClickSaga() {
 
 ```typescript
 export function* workerSage() {
-  const planets = yield call(swapiGet, 'planets')
-  yield put({type: 'SET_PLANETS', payload: planets.results})
+  const planets = yield call(swapiGet, 'planets') // функция swapiGet возвращает данные с апи || строка 'planets' поступает в эту функцию в качестве параметра
+  yield put({type: 'SET_PLANETS', payload: planets.results}) // диспатч в редюсер
 }
 ```
 
