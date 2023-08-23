@@ -35,3 +35,5 @@ export function* workerSage() {
 
 <br>
 <br>
+
+## 🚩 Методы эффектов
