@@ -67,12 +67,12 @@ ReactDOM.render( // объект store будет доступен во всех
 // todoSlice.js
 
 const todoSlice = createSlice({
-    name: 'todos',
-    initialState: {
+    name: 'todos', // уникальное имя
+    initialState: { // состояние по умолчанию
         todos: [],
     },
-    reducers: {
-        addTodo(state, action) {
+    reducers: { // объект, хранящий обрабатываемые экшены
+        addTodo(state, action) { // пример метода
             state.todos.push(action.payload);
         },
         removeTodo(state, action) {
@@ -81,6 +81,10 @@ const todoSlice = createSlice({
     },
 
 });
+
+export const {addTodo, toggleComplete, removeTodo} = todoSlice.actions; // экспорт экшенов (точнее  экспорт action creators)
+
+export default todoSlice.reducer; // экспорт редюсера
 
 ```
 
