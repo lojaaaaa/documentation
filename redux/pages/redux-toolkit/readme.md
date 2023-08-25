@@ -67,15 +67,15 @@ ReactDOM.render( // объект store будет доступен во всех
 // todoSlice.js
 
 const todoSlice = createSlice({
-    name: 'todos', // уникальное имя
-    initialState: { // состояние по умолчанию
+    name: 'todos',          // уникальное имя
+    initialState: {               // состояние по умолчанию
         todos: [],
     },
-    reducers: { // объект, хранящий обрабатываемые экшены
-        addTodo(state, action) { // пример метода
+    reducers: {        // объект, хранящий обрабатываемые экшен
+        addTodo(state, action) {       
             state.todos.push(action.payload);
         },
-        removeTodo(state, action) {
+        removeTodo(state, action) {     // пример метода
             state.todos = state.todos.filter(todo => todo.id !== action.payload.id);
         }
     },
