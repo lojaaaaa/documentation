@@ -16,10 +16,7 @@ const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 
 ### Важно ❗
 
-`useState` имеет доступ к предыщему состоянию
-```jsx
-setCount(prevCount => prevCount + 1);
-```
+`useMemo` Может кэшировать не только значения, но и комопненты
 
 <br>
 
