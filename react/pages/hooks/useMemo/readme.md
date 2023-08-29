@@ -22,27 +22,31 @@ const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 
 ## 🚩 Пример
 ```jsx
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 
-function Counter() {
-    // Используем useState с начальным состоянием 0
-    const [count, setCount] = useState(0);
+const CircleArea = ({ radius }) => {
+  const area = useMemo(() => {
+    return Math.PI * radius * radius;
+  }, [radius]);
 
-    const increment = () => {
-        setCount(count + 1); // Обновляем состояние с новым значением
-    };
+  return (
+    <div>
+      Радиус: {radius}
+      <br />
+      Площадь круга: {area}
+    </div>
+  );
+};
 
-    const decrement = () => {
-        setCount(count - 1);
-    };
+const App = () => {
+  const [radius, setRadius] = useState(5);
 
-    return (
-        <div>
-            <p>Count: {count}</p>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
-        </div>
-    );
-}
+  return (
+    <div>
+      <CircleArea radius={radius} />
+      <button onClick={() => setRadius(radius + 1)}>Увеличить радиус</button>
+    </div>
+  );
+};
 
 ```
