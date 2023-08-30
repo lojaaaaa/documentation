@@ -1,4 +1,4 @@
-# Git
+# `Git`
 
 * **<a href="./pages/branches/readme.md">Ветки</a>**
 * **<a href="./pages/merge/readme.md">merge</a>**
