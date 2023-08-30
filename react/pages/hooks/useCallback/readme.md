@@ -43,25 +43,32 @@ const ChildComponent = ({ onClick }) => {
 
 <br>
 
-### 🔴 Мемоизация функций внутри map или filter
+### 🔴 Мемоизация обработчиков событий:
 ```jsx
-const RecipeList = ({ recipes }) => {
-  const filteredRecipes = useMemo(() => {
-    return recipes.filter(recipe => recipe.isFavorite);
-  }, [recipes]);
+const Counter = () => {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = useCallback(() => {
+    setCount(prevCount => prevCount + 1);
+  }, []);
+
+  const handleDecrement = useCallback(() => {
+    setCount(prevCount => prevCount - 1);
+  }, []);
 
   return (
-    <ul>
-      {filteredRecipes.map(recipe => (
-        <li key={recipe.id}>{recipe.title}</li>
-      ))}
-    </ul>
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={handleIncrement}>Increment</button>
+      <button onClick={handleDecrement}>Decrement</button>
+    </div>
   );
 };
 
 
+
 ```
-👉 Позволяет избежать лишних перерендеров дочерних компонентов, если обработчики зависят от статических данных
+👉 Позволяет сохранить стабильные версии обработчиков событий `handleIncrement` и `handleDecrement`, избегая ненужных пересозданий при каждом рендере
 
 
 <br>
