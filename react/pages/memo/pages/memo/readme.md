@@ -59,6 +59,6 @@ export default UserList;
 
 <br>
 
-<img src="../../img/1.png" style="width: 500px">
+<img src="../../img/1.png" style="width: 700px">
 
 <a href="./pages/change-structure/readme.md">❓ Как можно изменить структуру</a>
