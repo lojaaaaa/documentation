@@ -49,7 +49,7 @@ function SimpleLayoutEffectExample() {
 
 ```
 
-
+<br>
 
 ## 🚩 Разница между `useLayoutEffect` и `useEffect`
 
