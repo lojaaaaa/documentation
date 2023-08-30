@@ -45,42 +45,59 @@ const ExpensiveCalculation = () => {
 
 <br>
 
-### 🔴 Мемоизация обработчиков событий
+### 🔴 Оптимизация дорогостоящих рендеров:
 ```jsx
-const RecipeCard = ({ recipe, onDelete }) => {
-  const handleClick = useCallback(() => {
-    onDelete(recipe.id);
-  }, [onDelete, recipe.id]);
+const UserList = ({ users }) => {
+  const sortedUsers = useMemo(() => {
+    return users.sort((a, b) => a.name.localeCompare(b.name));
+  }, [users]);
 
   return (
-    <div>
-      <h3>{recipe.title}</h3>
-      <button onClick={handleClick}>Delete</button>
-    </div>
+    <ul>
+      {sortedUsers.map(user => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
   );
-}
+};
+
 
 ```
-👉 Позволяет избежать лишних перерендеров дочерних компонентов, если обработчики зависят от статических данных
+👉 Сортировка `users` производится только при изменении зависимости `users`, что позволяет избежать частых дорогостоящих операций сортировки
 
 
 <br>
 
-### 🔴 Мемоизация результатов вычислений
+### 🔴 Кэширование результатов API-запросов
 ```jsx
-const RecipeCard = ({ recipe }) => {
-  const ingredientCount = useMemo(() => {
-    return recipe.ingredients.length;
-  }, [recipe.ingredients]);
+const UserProfile = ({ userId }) => {
+  const user = useMemo(() => {
+    return fetchUser(userId); // Запрос данных пользователя
+  }, [userId]);
 
-  return (
-    <div>
-      <h3>{recipe.title}</h3>
-      <p>Ingredients: {ingredientCount}</p>
-    </div>
-  );
-}
+  return <div>{user.name}</div>;
+};
+
 
 
 ```
-👉 Если есть сложные вычисления, результаты которых используются в компонентах
+👉 Запрос на получение данных пользователя будет выполнен только при изменении `userId`
+
+
+<br>
+
+### 🔴 Оптимизация контекстов:
+```jsx
+const MyComponent = () => {
+  const contextValue = useContext(MyContext);
+
+  const processedValue = useMemo(() => {
+    return expensiveProcessing(contextValue);
+  }, [contextValue]);
+
+  return <div>{processedValue}</div>;
+};
+
+```
+👉 Позволяет избежать повторных вычислений, когда значение из контекста остается неизменным
+
