@@ -61,4 +61,4 @@ export default UserList;
 
 <img src="../../img/1.png" style="width: 500px">
 
-<a href="./pages/change-structure/readme.md">Как можно изменить структуру?</a>
+<a href="./pages/change-structure/readme.md">Как можно изменить структуру ❓</a>
