@@ -59,3 +59,4 @@ function SimpleLayoutEffectExample() {
 
 <br>
 
+`ComponentDidMount` в данном случае отображает работу `useLayoutEffect`
