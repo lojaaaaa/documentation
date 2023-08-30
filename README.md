@@ -1,10 +1,9 @@
 # documentation
 
 
-* **<a href="./pages/branches/readme.md">Ветки</a>**
-* **<a href="./pages/merge/readme.md">merge</a>**
-* **<a href="./pages/rebase/readme.md">rebase</a>**
-* **<a href="./pages/reset-checkout/readme.md">reset и checkout</a>**
-* **<a href="./pages/cherry-pick/readme.md">cherry-pick</a>**
-* **<a href="./pages/amend/readme.md">amend</a>**
+* **<a href="./pages/branches/readme.md">git</a>**
+* **<a href="./pages/merge/readme.md">js</a>**
+* **<a href="./pages/rebase/readme.md">typescript</a>**
+* **<a href="./pages/reset-checkout/readme.md">react</a>**
+* **<a href="./pages/cherry-pick/readme.md">redux</a>**
 
