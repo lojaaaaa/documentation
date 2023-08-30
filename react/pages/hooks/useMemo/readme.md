@@ -22,40 +22,6 @@ const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 
 <br>
 
-## 🚩 Пример
-```jsx
-import React, { useState, useMemo } from 'react';
-
-const CircleArea = ({ radius }) => {
-  const area = useMemo(() => {
-    return Math.PI * radius * radius;
-  }, [radius]);
-
-  return (
-    <div>
-      Радиус: {radius}
-      <br />
-      Площадь круга: {area}
-    </div>
-  );
-};
-
-const App = () => {
-  const [radius, setRadius] = useState(5);
-
-  return (
-    <div>
-      <CircleArea radius={radius} />
-      <button onClick={() => setRadius(radius + 1)}>Увеличить радиус</button>
-    </div>
-  );
-};
-
-```
-
-
-<br>
-
 ## 🚩 Когда лучше использовать
 
 <br>
