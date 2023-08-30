@@ -73,21 +73,34 @@ const Counter = () => {
 
 <br>
 
-### 🔴 Мемоизация результатов вычислений
+### 🔴 Оптимизация зависимостей useEffect:
 ```jsx
-const RecipeCard = ({ recipe }) => {
-  const ingredientCount = useMemo(() => {
-    return recipe.ingredients.length;
-  }, [recipe.ingredients]);
+const UserProfile = ({ userId }) => {
+  const [user, setUser] = useState(null);
+
+  const fetchUser = useCallback(async () => {
+    const response = await fetch(`/api/user/${userId}`);
+    const data = await response.json();
+    setUser(data);
+  }, [userId]);
+
+  useEffect(() => {
+    fetchUser();
+  }, [fetchUser]); // Мемоизированный колбэк как зависимость
+
+  if (!user) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <div>
-      <h3>{recipe.title}</h3>
-      <p>Ingredients: {ingredientCount}</p>
+      <h2>{user.name}</h2>
+      <p>Email: {user.email}</p>
     </div>
   );
-}
+};
+
 
 
 ```
-👉 Если есть сложные вычисления, результаты которых используются в компонентах
+👉 Позволяет создать стабильный fetchUser, который можно использовать в зависимостях useEffect, обеспечивая стабильность в наблюдении за изменениями fetchUser
