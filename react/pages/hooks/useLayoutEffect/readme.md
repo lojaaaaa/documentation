@@ -48,3 +48,13 @@ function SimpleLayoutEffectExample() {
 
 
 ```
+
+
+
+## 🚩 Наглядная разница между `useLayoutEffect` и `useEffect`
+
+<br>
+
+<img src="./img/1.svg" style="width: 500px">
+
+<br>
