@@ -60,3 +60,9 @@ function SimpleLayoutEffectExample() {
 <br>
 
 `ComponentDidMount` в данном случае отображает работу `useLayoutEffect`
+
+<br>
+
+### Важно ❗
+
+Эффекты, запланированные с помощью `useEffect`, не блокируют браузер при попытке обновить экран
