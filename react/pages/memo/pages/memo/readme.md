@@ -63,4 +63,4 @@ export default UserList;
 
 <br>
 
-* **<a href="./pages/change-structure/readme.md">Как избежать использование memo</a>**
+<a href="./pages/change-structure/readme.md">Как можно изменить структуру?</a>**
