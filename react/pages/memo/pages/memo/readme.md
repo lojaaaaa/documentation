@@ -60,3 +60,7 @@ export default UserList;
 <br>
 
 <img src="../../img/1.png" style="width: 500px">
+
+<br>
+
+* **<a href="./pages/change-structure/readme.md">Как избежать использование memo</a>**
