@@ -55,6 +55,6 @@ function SimpleLayoutEffectExample() {
 
 <br>
 
-<img src="./img/1.svg" style="width: 500px"> <img src="./img/2.svg" style="width: 500px">
+<img src="./img/1.png" style="width: 500px"> <img src="./img/2.png" style="width: 500px">
 
 <br>
