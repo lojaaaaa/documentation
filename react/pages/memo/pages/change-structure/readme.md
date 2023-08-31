@@ -11,34 +11,35 @@
 
 ## 🚩 Без меморизации
 
-```jsx
-import React from 'react';
+Исходный код
+```js
+const [input, setInput] = useState("");
 
-const User = ({ user }) => {
-  console.log(`User ${user.name} рендерится`);
   return (
-    <div>
-      <h3>{user.name}</h3>
-      <p>Email: {user.email}</p>
-    </div>
-  );
-};
-
-const MemoizedUser = React.memo(User);
-
-const UserList = ({ users }) => {
-  return (
-    <div>
-      {users.map(user => (
-        <MemoizedUser key={user.id} user={user} />
+    <div className="App">
+      <input value={input} onChange={(e) => setInput(e.target.value)} />
+      {cars.map((name) => (
+        <CarMemo name={name} key={name} />
       ))}
     </div>
   );
-};
+  
+```
 
-export default UserList;
+### Отделение компонентов
 
+```jsx
+```js
 
+return (
+    <div className="App">
+        <Input /> {/* 👉🏼 Изменение стейта инпута происходит внутри, не заставляя перередндривать Car при каждом изменении в input */}
+        {cars.map((name) => (
+            <Car name={name} key={name} />
+        ))}
+    </div>
+);
+```
 
 ```
 👉 Компонент `User` обернут в `React.memo`, и он будет перерисовываться только тогда, когда пропсы пользователя (`user`) действительно изменились
