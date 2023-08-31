@@ -26,7 +26,9 @@ const [input, setInput] = useState("");
   
 ```
 
-### Отделение компонентов
+<br>
+
+### `Отделение компонентов`
 
 ```jsx
 
@@ -45,7 +47,7 @@ return (
 <br>
 
 
-### children
+### `children`
 
 ```jsx
 const [input, setInput] = useState("");
