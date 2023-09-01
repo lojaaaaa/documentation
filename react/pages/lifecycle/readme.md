@@ -8,6 +8,9 @@
 
 ## 🚩 Классовый подход
 
+
+<a href="./pages/change-structure/readme.md"><img src="./img/1.png" style="width: 700px"></a>
+
 <br>
 
 ### 🔴 Создание
