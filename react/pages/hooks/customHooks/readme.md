@@ -4,6 +4,7 @@
 
 ## 🚩 Хуки
 
+<br>
 
 ### `useInput`
 ```js
@@ -20,4 +21,19 @@ export default function useInput (initialValue) {
   return {value, onChange}
 }
 
+//////
+
+function App() {
+  
+  const name = useInput('')
+
+  return (
+    <div>
+      <input {...name} type="text" placeholder="name"/>
+      <button onClick={() => console.log(name.value)}>tap</button>
+    </div>
+  )
+}
+
 ```
+👉 Хук для получения значения инпута
