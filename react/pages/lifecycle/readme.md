@@ -10,7 +10,7 @@
 
 <br>
 
-### Создание
+### 1) Создание
 
 <details>
 <summary>🔹 constructor()</summary>
