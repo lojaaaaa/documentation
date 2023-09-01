@@ -122,4 +122,4 @@
 ## 🚩 Функциональный подход с хуками
 
 
-<img src="./img/2.jpg" style="width: 700px">
+<img src="./img/2.jpg" style="width: 900px">
