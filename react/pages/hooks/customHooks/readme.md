@@ -7,7 +7,8 @@
 <br>
 
 ### `useInput`
-```js
+```jsx
+//useInput.js
 import { useState } from "react";
 
 export default function useInput (initialValue) {
@@ -21,8 +22,7 @@ export default function useInput (initialValue) {
   return {value, onChange}
 }
 
-//////
-
+//App.jsx
 function App() {
   
   const name = useInput('')
