@@ -2,11 +2,7 @@
 
 <br>
 
-## 🚩 Хуки
-
-<br>
-
-### `useInput`
+## 🚩 `useInput`
 ```jsx
 //useInput.js
 import { useState } from "react";
