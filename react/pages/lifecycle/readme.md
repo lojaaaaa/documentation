@@ -9,7 +9,7 @@
 ## 🚩 Классовый подход
 
 
-<a href="./pages/change-structure/readme.md"><img src="./img/1.png" style="width: 700px"></a>
+<a href="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/"><img src="./img/1.png" style="width: 700px"></a>
 
 <br>
 
