@@ -10,3 +10,30 @@
 
 <br>
 
+### Создание
+
+<details>
+<summary>🔹 constructor()</summary>
+    
+</details>
+
+<br>
+
+<details>
+<summary>🔹 static getDerivedStateFromProps()</summary>
+    
+</details>
+
+<br>
+
+<details>
+<summary>🔹 render()</summary>
+    
+</details>
+
+<br>
+
+<details>
+<summary>🔹 componentDidMount()</summary>
+    
+</details>
