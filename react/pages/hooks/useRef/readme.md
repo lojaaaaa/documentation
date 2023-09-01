@@ -19,7 +19,9 @@ const ref = useRef(initialValue);
 
 <br>
 
-## 🚩 Пример
+## 🚩 Примеры
+
+### Привязка к DOM-элементу
 ```jsx
 import React, { useRef } from 'react';
 
@@ -36,6 +38,52 @@ function FocusableInput() {
             <button onClick={focusInput}>Focus Input</button>
         </div>
     );
+}
+
+
+```
+<br>
+
+### Сохранение данных между рендерами
+```jsx
+function MyComponent() {
+  const dataRef = useRef(0);
+
+  const incrementData = () => {
+    dataRef.current += 1;
+    console.log(dataRef.current);
+  };
+
+  return (
+    <div>
+      <p>Значение: {dataRef.current}</p>
+      <button onClick={incrementData}>Инкрементировать</button>
+    </div>
+  );
+}
+
+
+```
+<br>
+
+### Хранение предыдущих значений
+```jsx
+import React, { useEffect, useRef } from 'react';
+
+function MyComponent(props) {
+  const prevPropsRef = useRef();
+
+  useEffect(() => {
+    prevPropsRef.current = props;
+  });
+
+  const prevProps = prevPropsRef.current;
+
+  if (prevProps.someValue !== props.someValue) {
+    // Делать что-то при изменении определенного пропса
+  }
+
+  // ...
 }
 
 
