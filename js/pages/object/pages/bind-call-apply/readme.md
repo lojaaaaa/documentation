@@ -3,8 +3,30 @@
 
 <br> 
 
-## 🚩 function.bind(context, arg1, ..., argN)
+## 🚩 bind
 
+```javascript
+
+function.bind(context, arg1, ..., argN)
+
+```
+<br>
+
+```javascript
+function myFn(phrase) {
+  return `${phrase} ${this.name}`
+}
+
+const myObject = {
+    name: 'Ben'
+}
+
+const fnWithContext = myFn.bind(myObject, 'Hi'),
+      fnWithContext2 = myFn.bind(myObject)
+
+fnWithContext()      //Hi Ben
+fnWithContext2('By') //By Ben
+```
 
 
 <br>
