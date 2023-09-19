@@ -8,7 +8,7 @@ let user = {
 
   sayHi() {
     // "this" - это "текущий объект".
-    alert(this.name);
+    alert(this.name); // или alert(user.name)
   }
 
 };
