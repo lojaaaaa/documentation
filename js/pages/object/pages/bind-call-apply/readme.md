@@ -1,17 +1,16 @@
-# `bind`, 'call' и `apply`
+# `bind`, `call` и `apply`
 > методы, которые позволяют изменить контекст
 
-## `bind`
+## bind
 
 
 
 
 
-## `ca;;`
+## call
 
 
 
 
 
-
-## `apply`
+## apply
