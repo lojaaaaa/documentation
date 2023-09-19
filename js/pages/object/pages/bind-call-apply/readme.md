@@ -3,7 +3,7 @@
 
 <br> 
 
-## 🚩 bind
+## 🚩 `bind`
 
 <br>
 
@@ -39,7 +39,7 @@ fnWithContext2('By') //By Ben
 <br>
 
 
-## 🚩 call
+## 🚩 `call`
 
 <br>
 
@@ -69,7 +69,7 @@ myFn.call(myObject, 'Hi') // Hi Ben
 <br>
 
 
-## 🚩 apply
+## 🚩 `apply`
 
 <br>
 
