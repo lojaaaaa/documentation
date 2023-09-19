@@ -11,7 +11,6 @@
 ```javascript
 function.bind(context, arg1, ..., argN)
 ```
-<br>
 
 ### Пример 👇
 ```javascript
@@ -29,8 +28,6 @@ const fnWithContext = myFn.bind(myObject, 'Hi'),
 fnWithContext()      //Hi Ben
 fnWithContext2('By') //By Ben
 ```
-
-<br>
 
 ### Важно ❗
 
