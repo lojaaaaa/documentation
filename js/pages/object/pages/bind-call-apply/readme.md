@@ -58,11 +58,7 @@ const myObject = {
     name: 'Ben'
 }
 
-const fnWithContext = myFn.bind(myObject, 'Hi'),
-      fnWithContext2 = myFn.bind(myObject)
-
-fnWithContext()      //Hi Ben
-fnWithContext2('By') //By Ben
+myFn.call(myObject, 'Hi') // Hi Ben
 ```
 
 <br>
@@ -93,11 +89,7 @@ const myObject = {
     name: 'Ben'
 }
 
-const fnWithContext = myFn.bind(myObject, 'Hi'),
-      fnWithContext2 = myFn.bind(myObject)
-
-fnWithContext()      //Hi Ben
-fnWithContext2('By') //By Ben
+myFn.apply(myObject, ['Hi']) // Hi Ben
 ```
 
 <br>
