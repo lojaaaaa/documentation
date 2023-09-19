@@ -37,7 +37,6 @@ fnWithContext2('By') //By Ben
 
 <br>
 <br>
-<br>
 
 
 ## 🚩 call
@@ -48,7 +47,6 @@ fnWithContext2('By') //By Ben
 ```javascript
 function.call(context, arg1, ..., argN)
 ```
-<br>
 
 ### Пример 👇
 ```javascript
@@ -62,8 +60,6 @@ const myObject = {
 
 myFn.call(myObject, 'Hi') // Hi Ben
 ```
-
-<br>
 
 ### Важно ❗
 
@@ -81,7 +77,6 @@ myFn.call(myObject, 'Hi') // Hi Ben
 ```javascript
 function.apply(context, [array])
 ```
-<br>
 
 ### Пример 👇
 ```javascript
@@ -95,8 +90,6 @@ const myObject = {
 
 myFn.apply(myObject, ['Hi']) // Hi Ben
 ```
-
-<br>
 
 ### Важно ❗
 
