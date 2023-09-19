@@ -3,16 +3,16 @@
 
 <br> 
 
-## 🚩 bind
+## 🚩 function.bind(context, arg1, ..., argN)
 
 
 
+<br>
+
+## 🚩 function.call(context, arg1, ..., argN)
 
 
-## 🚩 call
+<br>
 
 
-
-
-
-## 🚩 apply
+## 🚩 function.apply(context, [array])
