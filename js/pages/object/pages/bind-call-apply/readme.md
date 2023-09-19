@@ -5,13 +5,13 @@
 
 ## 🚩 bind
 
-Синтаксис
+Синтаксис 👇
 ```javascript
 function.bind(context, arg1, ..., argN)
 ```
 <br>
 
-Пример
+Пример 👇
 ```javascript
 function myFn(phrase) {
   return `${phrase} ${this.name}`
