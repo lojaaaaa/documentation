@@ -32,16 +32,83 @@ fnWithContext2('By') //By Ben
 
 ### Важно ❗
 
-🔴 `Не вызывает` возвращаему функцию
+🔴 `Не вызывает` возвращаемую функцию
 
 🔴 Аргументы можно пробросить как при `bind`, так и через результат `bind`
 
 <br>
-
-## 🚩 function.call(context, arg1, ..., argN)
-
-
 <br>
 
 
-## 🚩 function.apply(context, [array])
+## 🚩 call
+
+### Синтаксис 👇
+```javascript
+function.call(context, arg1, ..., argN)
+```
+<br>
+
+### Пример 👇
+```javascript
+function myFn(phrase) {
+  return `${phrase} ${this.name}`
+}
+
+const myObject = {
+    name: 'Ben'
+}
+
+const fnWithContext = myFn.bind(myObject, 'Hi'),
+      fnWithContext2 = myFn.bind(myObject)
+
+fnWithContext()      //Hi Ben
+fnWithContext2('By') //By Ben
+```
+
+<br>
+
+### Важно ❗
+
+🔴 Сразу `вызывает` возвращаемую функцию
+
+<br>
+<br>
+
+
+## 🚩 apply
+
+### Синтаксис 👇
+```javascript
+function.apply(context, [array])
+```
+<br>
+
+### Пример 👇
+```javascript
+function myFn(phrase) {
+  return `${phrase} ${this.name}`
+}
+
+const myObject = {
+    name: 'Ben'
+}
+
+const fnWithContext = myFn.bind(myObject, 'Hi'),
+      fnWithContext2 = myFn.bind(myObject)
+
+fnWithContext()      //Hi Ben
+fnWithContext2('By') //By Ben
+```
+
+<br>
+
+### Важно ❗
+
+🔴 Сразу `вызывает` возвращаемую функцию
+
+🔴 Принимает в качестве параметров `context` и `массив аргументов`
+
+<br>
+<br>
+
+
