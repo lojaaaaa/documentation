@@ -32,7 +32,7 @@ user.sayHi(); // John
 let user = {
   firstName: "Ilya",
   sayHi() {
-    let arrow = () => alert(this.firstName);
+    let arrow = () => alert(this.firstName); // this ссылается на контекст метода sayHi(), т.е на объект `user`
     arrow();
   }
 };
