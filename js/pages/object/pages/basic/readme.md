@@ -180,7 +180,9 @@ console.log(a == b); // true
 ```javascript
 
 // Приводим объекты в json и сравниваем
-JSON.stringify({a: 1}) === JSON.stringify({a: 1}) // true
+JSON.stringify({a: 1, b: 2}) === JSON.stringify({a: 1, b: 2}) // true
+
+JSON.stringify({a: 1, b: 2})) === JSON.stringify({b: 2, a: 1}) // false
 
 ```
 
