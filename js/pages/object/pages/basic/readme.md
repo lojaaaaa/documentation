@@ -234,7 +234,7 @@ console.log(objectsAreEqual(obj1, obj2)); // true
 <br>
 
 <details>
-<summary> 🔹 == </summary>
+<summary> 🔹 Глубокое </summary>
   
 <br>
 
@@ -257,7 +257,7 @@ console.log(a == b); // true
 <br>
 
 <details>
-<summary> 🔹 Json </summary>
+<summary> 🔹 Поверхностное </summary>
   
 <br>
 
@@ -275,38 +275,3 @@ JSON.stringify({a: 1}) === JSON.stringify({a: 1}) // true
 <br>
 
 <details>
-<summary> 🔹 Перебор ключей </summary>
-  
-<br>
-
-```javascript
-
-function objectsAreEqual(objA, objB) {
-    const keysA = Object.keys(objA);
-    const keysB = Object.keys(objB);
-
-    if (keysA.length !== keysB.length) {
-        return false;
-    }
-
-    for (const i = 0; i < keysA.length; i++) {
-        const key = keysA[i];
-        if (objA[key] !== objB[key]) {
-            return false;
-        }
-    }
-
-    return true;
-}
-
-const obj1 = { name: "John", age: 30 };
-const obj2 = { name: "John", age: 30 };
-
-console.log(objectsAreEqual(obj1, obj2)); // true
-
-
-```
-
-❗ Работает только для `примитивных` свойств, для более глубокого сравнения необходим подход с `рекурсивным сравнением`
-
-</details>
