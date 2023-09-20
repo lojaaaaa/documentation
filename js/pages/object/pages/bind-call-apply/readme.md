@@ -5,8 +5,6 @@
 
 ## 🚩 `bind`
 
-<br>
-
 ### Синтаксис 👇
 ```javascript
 function.bind(context, arg1, ..., argN)
@@ -41,7 +39,6 @@ fnWithContext2('By') //By Ben
 
 ## 🚩 `call`
 
-<br>
 
 ### Синтаксис 👇
 ```javascript
@@ -71,7 +68,6 @@ myFn.call(myObject, 'Hi') // Hi Ben
 
 ## 🚩 `apply`
 
-<br>
 
 ### Синтаксис 👇
 ```javascript
