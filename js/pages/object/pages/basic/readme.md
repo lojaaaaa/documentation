@@ -4,7 +4,7 @@
 
 
 <details>
-<summary> 🔹 {...} или new Object() </summary>
+<summary> 🔹 `{...} или new Object()` </summary>
   
 <br>
 
