@@ -11,7 +11,6 @@
 
 ```javascript
 
-// {...}
 const person = {
     firstName: "John",
     age: 30
