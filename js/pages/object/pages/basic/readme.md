@@ -4,17 +4,20 @@
 
 
 <details>
-<summary> 🔹 `{...} или new Object()` </summary>
+<summary> 🔹 {...} или new Object() </summary>
   
 <br>
 
 ```javascript
 
+// {...}
 const person = {
     firstName: "John",
     age: 30
 };
 
+
+// new Object() 
 const person = new Object()
 person.firstName = "John"
 person.age = 30
