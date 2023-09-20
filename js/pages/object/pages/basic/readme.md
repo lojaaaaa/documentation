@@ -80,7 +80,7 @@ class Person {
 
 const john = new Person("John", "Doe", 30);
 
-// const john = {
+const john = {
   firstName = John,
   lastName = Doe,
   age = 30
