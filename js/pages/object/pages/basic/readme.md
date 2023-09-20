@@ -361,5 +361,34 @@ function deepCopy(obj) {
 
 </details>
 
+
 <br>
 
+## 🚩 Проверка на наличие ключа
+
+<br>
+
+<details>
+<summary> 🔹 if </summary>
+    
+<br>
+
+</details>
+
+<br>
+
+<details>
+<summary> 🔹 in </summary>
+    
+<br>
+
+</details>
+
+<br>
+
+<details>
+<summary> 🔹 hasOwnProperty() </summary>
+    
+<br>
+
+</details>
