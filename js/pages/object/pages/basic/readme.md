@@ -234,30 +234,43 @@ console.log(objectsAreEqual(obj1, obj2)); // true
 <br>
 
 <details>
-<summary> 🔹 Глубокое </summary>
-  
+<summary> 🔹 Поверхностное </summary>
+
 <br>
+
+### {...object}
 
 ```javascript
 
-// ссылаются на разные области в памяти (ссылки разные)
-console.log({a: 1} == {a: 1}) // false
-
-// ссылаются на одну и ту же область в памяти (ссылка одна и та же)
 const a = { name: "John" };
-const b = a;
+const b = {...a}
 
-console.log(a == b); // true
-
+console.log(a === b); // false, т.к объекты ссылаются на разные области памяти
 
 ```
+❗ Копирование идет лишь на первом уровне
 
+```javascript
+
+const user = {
+        name: 'Max',
+        address: {
+            country: 'Russia',
+            city: 'Moscow'
+        }
+      },
+clone = {...user}
+clone.address.city = 'Perm'
+      
+console.log(user.address.city) //  'Perm'
+
+```
 </details>
 
 <br>
 
 <details>
-<summary> 🔹 Поверхностное </summary>
+<summary> 🔹 Глубокое </summary>
   
 <br>
 
@@ -274,4 +287,3 @@ JSON.stringify({a: 1}) === JSON.stringify({a: 1}) // true
 
 <br>
 
-<details>
