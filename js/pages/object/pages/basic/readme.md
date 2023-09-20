@@ -146,7 +146,7 @@ console.log(person["age"]); // 30
 <br>
 
 <details>
-<summary> 🔹 через == </summary>
+<summary> 🔹 == </summary>
   
 <br>
 
@@ -169,7 +169,7 @@ console.log(a == b); // true
 <br>
 
 <details>
-<summary> 🔹 как строки (json) </summary>
+<summary> 🔹 json </summary>
   
 <br>
 
