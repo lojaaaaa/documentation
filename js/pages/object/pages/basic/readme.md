@@ -192,7 +192,7 @@ JSON.stringify({a: 1}) === JSON.stringify({a: 1}) // true
 <br>
 
 ```javascript
-// 
+
 function objectsAreEqual(objA, objB) {
     const keysA = Object.keys(objA);
     const keysB = Object.keys(objB);
@@ -219,7 +219,7 @@ console.log(objectsAreEqual(obj1, obj2)); // true
 
 ```
 
-❗ Работает только для примитивных свойств, для более глубокого сравнения необходим подход с рекурсивным сравнением
+❗ Работает только для `примитивных` свойств, для более глубокого сравнения необходим подход с `рекурсивным сравнением`
 
 </details>
 
