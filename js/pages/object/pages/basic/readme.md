@@ -288,9 +288,9 @@ const clone = Object.assign({}, original);
 clone.name = "Doe";
 clone.address.city = "Los Angeles";
 
-console.log(original.name); // "John"
+console.log(original.name); // "John" | *
 console.log(original.address.city); // "Los Angeles"
-
+console.log(original === clone); // false (даже, если * изменение `name` не произошло)
 
 ```
 
