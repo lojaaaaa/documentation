@@ -62,3 +62,34 @@ john.age = 30;
 
 </details>
 
+<br>
+
+<details>
+<summary> 🔹 Конструктор класса (ES6+)</summary>
+  
+<br>
+
+```javascript
+class Person {
+    constructor(firstName, lastName, age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+}
+
+const john = new Person("John", "Doe", 30);
+
+// const john = {
+  firstName = John,
+  lastName = Doe,
+  age = 30
+}
+
+```
+
+👆 Позволяет создавать новые объекты с указанным прототипом (существующим объектом)
+
+❗ Это позволяет наследовать свойства и методы от другого объекта
+
+</details>
