@@ -240,7 +240,7 @@ console.log(objectsAreEqual(obj1, obj2)); // true
 
 <br>
 
-### {...object}
+### 🔴 {...object}
 
 ```javascript
 
@@ -276,7 +276,7 @@ console.log(user === clone) //  false
 <br>
 <br>
 
-### Object.assign()
+### 🔴 Object.assign()
 
 <br>
 
@@ -305,14 +305,27 @@ console.log(original === clone); // false (даже, если * изменени
   
 <br>
 
+### 🔴 JSON.parse(JSON.stringify(object))
+
 ```javascript
 
-// Приводим объекты в json и сравниваем
-JSON.stringify({a: 1}) === JSON.stringify({a: 1}) // true
+const user = {
+        name: 'Max',
+        address: {
+            country: 'Russia',
+            city: 'Moscow'
+        }
+      },
+      clone = JSON.parse(JSON.stringify(user))
+      
+      clone.address.city = 'Peter'
+      
+console.log(user.address.city, clone.address.city) // 'Moscow', 'Peter'
 
 ```
+👆 Объект превращается в строку, из которой потом создается полностью новый объект
 
-❗ Свойства объектов должные иметь `одинаковый порядок`, иначе строки будут разными
+❗ Такое копирование удаляет функции
 
 </details>
 
