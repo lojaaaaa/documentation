@@ -273,6 +273,29 @@ console.log(user === clone) //  false
 
 👆 `Оригинальный` объект был изменен, при этом он по-прежнему не равен `скопированному`
 
+<br>
+<br>
+
+### Object.assign()
+
+<br>
+
+```javascript
+
+const original = { name: "John", address: { city: "New York" } };
+const clone = Object.assign({}, original);
+
+clone.name = "Doe";
+clone.address.city = "Los Angeles";
+
+console.log(original.name); // "John"
+console.log(original.address.city); // "Los Angeles"
+
+
+```
+
+👆 Если объект содержит вложенные объекты, они будут скопированы по ссылке
+
 </details>
 
 <br>
