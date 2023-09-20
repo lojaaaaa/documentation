@@ -4,6 +4,8 @@
 
 ## 🚩 Способы создания объекта
 
+<br>
+
 <details>
 <summary> 🔹 {...} или new Object() </summary>
   
@@ -31,7 +33,7 @@ person.age = 30
 
 </details>
 
-
+<br>
 
 <details>
 <summary> 🔹 Object.create() </summary>
