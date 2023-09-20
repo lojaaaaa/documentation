@@ -373,6 +373,8 @@ function deepCopy(obj) {
     
 <br>
 
+❗ Вернет `false` если ключа нет или `undefined, null, NaN, false, 0, ''`
+
 </details>
 
 <br>
@@ -382,6 +384,9 @@ function deepCopy(obj) {
     
 <br>
 
+```javascript
+if ('city' in user) console.log('in return true') // true
+```
 </details>
 
 <br>
