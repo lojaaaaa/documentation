@@ -385,8 +385,17 @@ function deepCopy(obj) {
 <br>
 
 ```javascript
+
+const user = {
+    name: 'Ben',
+    city: undefined
+}
+
 if ('city' in user) console.log('in return true') // true
 ```
+
+❗ Вернет `true`, если ключ есть
+
 </details>
 
 <br>
@@ -396,4 +405,15 @@ if ('city' in user) console.log('in return true') // true
     
 <br>
 
+
+```javascript
+
+const person = {
+    name: "John",
+    age: 30
+};
+
+console.log(person.hasOwnProperty("name")); // true
+```
+❗ Вернет `true`, если ключ есть
 </details>
