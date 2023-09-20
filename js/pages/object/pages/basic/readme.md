@@ -19,6 +19,7 @@ const person = {
 
 person.age = 20
 
+// Как будет выглядеть person
 person = {
   firstName: "John",
   age: 20
