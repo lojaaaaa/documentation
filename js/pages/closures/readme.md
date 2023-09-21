@@ -16,17 +16,17 @@
 
 ```javascript
 
-let x = 1
+let x = 1 // 1
 
-function logToConsol(){
+function logToConsol(){ // 2
     console.log(x)
 }
 
-x = 2
+x = 2 // 3
 
-logToConsol()
+logToConsol() // 4
 
-x = 3  
+x = 3  // 5
 
 // В консоле будет выведено: 2
 
@@ -71,6 +71,7 @@ x = 3
   }
 }
 
+4.
 // Локальное окружение (logToConsol). Появилось при вызове функции
 {
   `ссылка`: глобальное окружение,
