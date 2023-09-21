@@ -127,6 +127,10 @@ x = 3  // 5
 
 <br>
 
+## 🚩 Наглядный пример
+
+<br>
+
 ```javascript
 
 function counterWrapper() {
