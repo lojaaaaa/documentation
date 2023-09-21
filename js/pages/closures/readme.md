@@ -39,7 +39,7 @@ x = 3  // 5
 
 <details>
 
-<summary> ### Kак это работает ❓ </summary>
+<summary> Kак это работает ❓ </summary>
 
 <br>
 
