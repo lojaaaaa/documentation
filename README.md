@@ -6,4 +6,6 @@
 * **<a href="./typescript/readme.md">TypeScript</a>**
 * **<a href="./react/readme.md">React</a>**
 * **<a href="./redux/readme.md">Redux</a>**
+* **<a href="./redux/readme.md">Алгоритмы</a>**
+
 
