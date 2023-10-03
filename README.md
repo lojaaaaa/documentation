@@ -7,5 +7,5 @@
 * **<a href="./react/readme.md">React</a>**
 * **<a href="./redux/readme.md">Redux</a>**
 * **<a href="./algorytms/README.md">Алгоритмы</a>**
-
+* **<a href="./fsd/README.md">Featured Sliced Design</a>**
 
