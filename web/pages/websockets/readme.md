@@ -6,7 +6,7 @@
 <br>
 
 <a href="https://learn.javascript.ru/websocket">
-  <img src="./1.png" style="width: 300px">
+  <img src="./1.png" style="width: 400px">
 </a>
 
 <br>
