@@ -9,4 +9,5 @@
 * **<a href="./algorytms/README.md">Алгоритмы</a>**
 * **<a href="./fsd/readme.md">Featured Sliced Design</a>**
 * **<a href="./web/readme.md">Web</a>**
+* **<a href="./nextjs/readme.md">Nextjs</a>**
 
